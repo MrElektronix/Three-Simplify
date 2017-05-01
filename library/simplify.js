@@ -16,7 +16,7 @@ class simplify {
     CalculateSceneSize();
     this.scene = new THREE.Scene();
     this.renderer = new THREE.WebGLRenderer();
-    this.renderer.setSize(SceneWidth.SceneHeight);
+    this.renderer.setSize(SceneWidth, SceneHeight);
     container.appendChild(this.renderer.domElement);
   }
 
