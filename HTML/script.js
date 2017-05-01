@@ -2,7 +2,8 @@ var ThreeSimplify = new simplify();
 
 
 function init() {
-  ThreeSimplify.initScene();
+  ThreeSimplify.CreateScene();
+
 }
 
 init();
